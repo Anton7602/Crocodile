@@ -5,6 +5,7 @@
     android:id="@+id/crocodile_act"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
 
@@ -100,7 +101,8 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintHorizontal_weight="10"
                     app:layout_constraintStart_toEndOf="@+id/number_one_txt"
-                    app:layout_constraintTop_toTopOf="@+id/number_one_txt" />
+                    app:layout_constraintTop_toTopOf="@+id/number_one_txt"
+                    tools:ignore="RtlCompat" />
 
                 <TextView
                     android:id="@+id/second_word_txt"
@@ -117,7 +119,8 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintHorizontal_weight="10"
                     app:layout_constraintStart_toEndOf="@+id/number_two_txt"
-                    app:layout_constraintTop_toTopOf="@+id/number_two_txt" />
+                    app:layout_constraintTop_toTopOf="@+id/number_two_txt"
+                    tools:ignore="RtlCompat" />
 
                 <TextView
                     android:id="@+id/third_word_txt"
@@ -134,7 +137,8 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintHorizontal_weight="10"
                     app:layout_constraintStart_toEndOf="@+id/number_three_txt"
-                    app:layout_constraintTop_toTopOf="@+id/number_three_txt" />
+                    app:layout_constraintTop_toTopOf="@+id/number_three_txt"
+                    tools:ignore="RtlCompat" />
 
                 <TextView
                     android:id="@+id/forth_word_txt"
@@ -152,7 +156,8 @@
                     app:layout_constraintHorizontal_weight="10"
                     app:layout_constraintStart_toEndOf="@+id/number_four_txt"
                     app:layout_constraintTop_toTopOf="@+id/number_four_txt"
-                    app:layout_constraintVertical_bias="0.681" />
+                    app:layout_constraintVertical_bias="0.681"
+                    tools:ignore="RtlCompat" />
 
                 <TextView
                     android:id="@+id/fifth_word_txt"
@@ -170,7 +175,8 @@
                     app:layout_constraintHorizontal_weight="10"
                     app:layout_constraintStart_toEndOf="@+id/number_five_txt"
                     app:layout_constraintTop_toTopOf="@+id/number_five_txt"
-                    app:layout_constraintVertical_bias="1.0" />
+                    app:layout_constraintVertical_bias="1.0"
+                    tools:ignore="RtlCompat" />
 
                 <TextView
                     android:id="@+id/number_one_txt"
@@ -278,6 +284,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/back_side_crd"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.75"
+        tools:ignore="RtlCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
