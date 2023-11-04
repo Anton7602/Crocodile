@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Crocodile" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/customStatusBarColor</item>
+        <item name="android:navigationBarColor">@color/customActionBarColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Crocodile" parent="Base.Theme.Crocodile" />
+</resources>
